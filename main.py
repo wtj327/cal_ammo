@@ -27,12 +27,7 @@ for item in items:
 # generate rows for Table A (ammo values) and Table B (remaining values)
 table_A = []
 table_B = []
-title_row = []
-title_row.append("item_name")
-title_row.append("class_code")
-title_row.append("purchase_year")
-title_row.append("purchase_price")
-title_row.append("ammo_rate")
+title_row = ["item_name", "class_code", "purchase_year", "purchase_price", "ammo_rate"]
 
 end_year = 2022
 
